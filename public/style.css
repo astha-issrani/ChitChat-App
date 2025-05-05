@@ -1,0 +1,64 @@
+body {
+    background-image: url('/heart.jpg'); /* Make sure the image exists in /public */
+    background-size: cover; /* Light grey or any color you like */
+    font-family: 'Segoe UI', sans-serif;
+    margin-left: 20px;
+    padding: 0;
+}
+
+/* Make body take full height */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Center content */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* vertical */
+    align-items: center;     /* horizontal */
+    height: 100%;
+    text-align: center;
+}
+
+/* Optional styling */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+h1 {
+    color: #333;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: hsl(122, 39%, 49%);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.chat{
+    background-color: rgb(195, 159, 228);
+    padding:20px;
+    border-radius: 16px;
+    display:inline-block;
+}
+.msg{
+    background-color: rgb(255, 200, 127);
+    color: rgb(26, 4, 128);
+    padding: 5px 15px;
+    border-radius: 15px;
+}
